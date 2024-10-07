@@ -17,15 +17,17 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # RisingOs specific flags
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RISING_CHIPSET="MediaTek Helio G80" \
-    RISING_MAINTAINER="Abhinav (hipexscape)"
+    RISING_MAINTAINER="Android-sudo (andexzu)"
 
 PRODUCT_PACKAGES += \
     MarkupGoogle \
     AiWallpapers
 
 RISING_PACKAGE_TYPE := "VANILLA_AOSP"
+#RISING_PACKAGE_TYPE := "GAPPS"
 TARGET_CORE_GMS := true
-TARGET_ENABLE_BLUR := false
+TARGET_ENABLE_BLUR := true
+#TARGET_DEFAULT_PIXEL_LAUNCHER := true
 
 PRODUCT_NAME := lineage_lancelot
 PRODUCT_DEVICE := lancelot
