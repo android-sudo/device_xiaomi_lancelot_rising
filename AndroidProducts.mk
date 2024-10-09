@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_lancelot.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lancelot-user \
-    lineage_lancelot-userdebug \
-    lineage_lancelot-eng
+    lineage_lancelot-ap2a-user \
+    lineage_lancelot-ap2a-userdebug \
+    lineage_lancelot-ap2a-eng
